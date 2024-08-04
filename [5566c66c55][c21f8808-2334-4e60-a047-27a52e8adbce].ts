@@ -1,4 +1,3 @@
 export default [
-  {"version":2,"parts":{"0":{"delete":true,"insertAfter":[{"type":"paragraph","text":"部分两派闹得很厉害，我们学习河南，主要是学习他们敢于造反、上台掌权的精神。”会上，对省里领导的情况也作了分析。他们说：“赵辛初六·一九讲话后，态度后退了。最近夏邦银几次找赵辛初，提出十几个问题要赵回答，赵答不出来。”“原来我们七月份要大搞的，现在要停停看看再搞。现在三件事要搞：街上的大标语、大字报可以贴；串连可以搞，交换交换情况嘛；定期分析会可以开。我们这样作，就抓不住什么辫子。主要在单位搞。”“对赵辛初的讲话，只能叫他前进，不能后退，看他怎么贯彻？”：：：·七月十三日潘洪斌在市房地局礼堂"},{"type":"paragraph","text":"·"},{"type":"paragraph","text":"集会上的讲话（节录）"},{"type":"paragraph","text":"，潘洪斌说：“我们这些人‘上’是肯定的，问题是如何上，上去后怎么办？在斗争当中上，这是一个办法；等一等，省、·市委转弯，做各级党委的工作，然后再上，这也是一种办法。不管是哪个办法，关键是我们要斗争。”"},{"type":"paragraph","text":"七月十四日彭勋、顾建棠在国棉六厂"},{"type":"paragraph","text":"，‘集会上的讲话（节录）"}]},"1":{"delete":true}},"comments":{}},
-  {"version":2,"parts":{},"description":"","comments":{},"newComments":[]},
-]
+{"version":2,"parts":{"0":{"delete":true},"1":{"insertBefore":[{"type":"title","text":"七月十三日潘洪斌在市房地局礼堂集会上的讲话（节录）"}],"diff":"-1\t=2\t-1\t+%E6%96%8C\t=6\t-1\t+%E4%BA%9B\t=1\t-1\t+%E2%80%98\t=1\t-1\t+%E2%80%99\t=84"},"2":{"delete":true},"3":{"delete":true}},"comments":{},"description":""},{"version":2,"parts":{},"comments":{},"description":"+%E4%B8%AD%E5%85%B1%E6%AD%A6%E6%B1%89%E5%B8%82%E5%A7%94%E6%9D%90%E6%96%99%E7%BB%84%EF%BC%8C%E4%B8%80%E4%B9%9D%E4%B8%83%E5%85%AD%E5%B9%B4%E5%8D%81%E4%BA%8C%E6%9C%88"},
+];
