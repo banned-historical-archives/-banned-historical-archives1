@@ -96,7 +96,14 @@ export default {
             "month": 11,
             "day": 26
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "二、毛远新大反经验主义的言论（摘编）",
@@ -161,13 +168,20 @@ export default {
             "month": 11,
             "day": 26
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "三、毛远新亲自修改的一份未发出的省委文件（大样）",
         "authors": [
-          "毛远新",
           "中共辽宁省委",
+          "毛远新",
           "辽宁省革命委员会宣传组"
         ],
         "page_start": 9,
@@ -206,8 +220,8 @@ export default {
       {
         "title": "四、毛远新授意发表的第二次理论讨论会的消息报道",
         "authors": [
-          "辽宁日报",
           "中共辽宁省委",
+          "辽宁日报",
           "辽宁省革命委员会宣传组"
         ],
         "page_start": 13,
@@ -237,4 +251,4 @@ export default {
   "path": "becd9f73-f6d4-4f1a-88ac-2fb3b1dfbffa",
   "resource_type": "book",
   "version": 2
-}
+};

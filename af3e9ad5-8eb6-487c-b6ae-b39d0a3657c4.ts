@@ -34,11 +34,11 @@ export default {
         },
         "dates": [
           {
-            "year": 1973
-          },
-          {
             "year": 1968,
             "month": 8
+          },
+          {
+            "year": 1970
           },
           {
             "year": 1971,
@@ -48,20 +48,27 @@ export default {
             "year": 1972
           },
           {
-            "year": 1976
+            "year": 1973
           },
           {
             "year": 1975,
             "month": 2
           },
           {
-            "year": 1976,
-            "month": 9
+            "year": 1976
           },
           {
-            "year": 1970
+            "year": 1976,
+            "month": 9
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "二、紧密配合“四人帮”破坏批林批孔，破坏学习无产阶级专政理论",
@@ -86,7 +93,14 @@ export default {
             "month": 3,
             "day": 5
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "三、贬低诬蔑人民解放军，破坏军队建设，妄图毁我长城",
@@ -136,7 +150,14 @@ export default {
             "month": 5,
             "day": 30
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "四、伙同“四人帮”破坏民兵建设，妄图建立“第二武装”",
@@ -173,20 +194,27 @@ export default {
           },
           {
             "year": 1974,
-            "month": 12,
-            "day": 3
+            "month": 11,
+            "day": 20
           },
           {
             "year": 1974,
-            "month": 11,
-            "day": 20
+            "month": 12,
+            "day": 3
           },
           {
             "year": 1975,
             "month": 3,
             "day": 9
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr": {
@@ -199,4 +227,4 @@ export default {
   "path": "af3e9ad5-8eb6-487c-b6ae-b39d0a3657c4",
   "resource_type": "book",
   "version": 2
-}
+};

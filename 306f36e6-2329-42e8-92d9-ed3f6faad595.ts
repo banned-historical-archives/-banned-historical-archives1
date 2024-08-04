@@ -34,7 +34,14 @@ export default {
             "month": 9,
             "day": 30
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "宗明兰给周忠民的回信",
@@ -50,7 +57,14 @@ export default {
             "month": 9,
             "day": 30
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr_exceptions": {}
@@ -59,4 +73,4 @@ export default {
   "path": "306f36e6-2329-42e8-92d9-ed3f6faad595",
   "resource_type": "book",
   "version": 2
-}
+};

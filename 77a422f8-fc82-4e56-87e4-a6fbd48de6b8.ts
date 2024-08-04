@@ -51,13 +51,20 @@ export default {
             "month": 9,
             "day": 22
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "王洪文、张春桥在总参民兵组训工作座谈会议汇报会上的插话",
         "authors": [
-          "王洪文",
-          "张春桥"
+          "张春桥",
+          "王洪文"
         ],
         "page_start": 5,
         "page_end": 9,
@@ -83,7 +90,14 @@ export default {
             "month": 9,
             "day": 22
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr": {
@@ -100,4 +114,4 @@ export default {
   "path": "77a422f8-fc82-4e56-87e4-a6fbd48de6b8",
   "resource_type": "book",
   "version": 2
-}
+};

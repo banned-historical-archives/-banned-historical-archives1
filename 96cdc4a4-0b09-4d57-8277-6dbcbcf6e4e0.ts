@@ -44,7 +44,14 @@ export default {
             "month": 9,
             "day": 27
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "江青九月二十八日下午在清华农村分校花生地里散布的反党言论摘录",
@@ -59,7 +66,14 @@ export default {
             "month": 9,
             "day": 28
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "江青九月二十九日在清华工程物理系散布的反党言论摘录",
@@ -74,7 +88,14 @@ export default {
             "month": 9,
             "day": 29
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr": {
@@ -91,4 +112,4 @@ export default {
   "path": "96cdc4a4-0b09-4d57-8277-6dbcbcf6e4e0",
   "resource_type": "book",
   "version": 2
-}
+};

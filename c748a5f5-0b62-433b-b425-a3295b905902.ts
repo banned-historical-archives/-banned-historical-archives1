@@ -40,8 +40,8 @@ export default {
         "title": "江青一九七五年四月三日找新华印刷厂工人座谈时散布的反党言论",
         "authors": [
           "江青",
-          "迟群",
-          "谢静宜"
+          "谢静宜",
+          "迟群"
         ],
         "page_start": 4,
         "page_end": 14,
@@ -57,14 +57,21 @@ export default {
             "month": 4,
             "day": 3
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "江青一九七六年九月窜到清华大学大兴农村分校的反党言行",
         "authors": [
           "江青",
-          "迟群",
-          "谢静宜"
+          "谢静宜",
+          "迟群"
         ],
         "page_start": 15,
         "page_end": 23,
@@ -79,7 +86,14 @@ export default {
             "year": 1976,
             "month": 9
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr": {
@@ -96,4 +110,4 @@ export default {
   "path": "c748a5f5-0b62-433b-b425-a3295b905902",
   "resource_type": "book",
   "version": 2
-}
+};

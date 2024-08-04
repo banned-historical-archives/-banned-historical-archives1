@@ -25,8 +25,8 @@ export default {
         "title": "王洪文、张春桥在中央军委领导同志听取通信兵批林批孔运动情况汇报时的插话",
         "alias": "王洪文、张春桥一九七四年三月十八日在中央军委领导同志听取通信兵批林批孔运动情况汇报时的插话",
         "authors": [
-          "王洪文",
-          "张春桥"
+          "张春桥",
+          "王洪文"
         ],
         "page_start": 2,
         "page_end": 8,
@@ -42,7 +42,14 @@ export default {
             "month": 3,
             "day": 18
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr": {
@@ -59,4 +66,4 @@ export default {
   "path": "db61721a-a96f-4ecf-8ec8-dc3d9be7de1d",
   "resource_type": "book",
   "version": 2
-}
+};

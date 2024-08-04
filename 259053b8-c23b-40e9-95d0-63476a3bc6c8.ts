@@ -39,7 +39,14 @@ export default {
             "name": "上海毛棉行业红卫军委员会",
             "type": "reprint"
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr_exceptions": {}
@@ -48,4 +55,4 @@ export default {
   "path": "259053b8-c23b-40e9-95d0-63476a3bc6c8",
   "resource_type": "book",
   "version": 2
-}
+};

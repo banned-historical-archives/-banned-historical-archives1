@@ -39,7 +39,14 @@ export default {
             "name": "阜联筹《红色风雷》编辑部",
             "type": "reprint"
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr": {
@@ -52,4 +59,4 @@ export default {
   "path": "52d8fbe4-965f-4cfc-872b-e6029e3f734d",
   "resource_type": "book",
   "version": 2
-}
+};

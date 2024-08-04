@@ -41,7 +41,14 @@ export default {
             "month": 1,
             "day": 20
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "事情正在起变化",
@@ -66,7 +73,14 @@ export default {
             "month": 5,
             "day": 15
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "湘江评论",
@@ -83,15 +97,22 @@ export default {
             ]
           }
         },
-        "dates": []
+        "dates": [],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "陈伯达等对“赴广州揪王任重革命造反团”的指示",
         "alias": "彻底批判刘、邓、陶资产阶级的反动路线",
         "authors": [
+          "康生",
           "江青",
-          "陈伯达",
-          "康生"
+          "陈伯达"
         ],
         "page_start": 2,
         "page_end": 2,
@@ -115,7 +136,14 @@ export default {
             "month": 1,
             "day": 4
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "江青同志在“全国在京革命师生向资产阶级反动路线猛烈开火誓师大会”上的讲话",
@@ -146,14 +174,21 @@ export default {
             "month": 10,
             "day": 6
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "张春桥关锋同志接见福建部分赴京革命同学的讲话",
         "alias": "张春桥同志接见福建部分赴京革命同学的讲话片段",
         "authors": [
-          "张春桥",
-          "关锋"
+          "关锋",
+          "张春桥"
         ],
         "page_start": 3,
         "page_end": 4,
@@ -226,4 +261,4 @@ export default {
   "path": "097e8dc4-78a1-46bb-8b7e-467bb84632b7",
   "resource_type": "book",
   "version": 2
-}
+};

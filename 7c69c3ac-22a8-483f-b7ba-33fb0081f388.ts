@@ -43,7 +43,14 @@ export default {
             "month": 2,
             "day": 16
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "毛远新在省第二期工农兵干部学习班开学典礼上的讲话（节录）",
@@ -58,7 +65,14 @@ export default {
             "month": 3,
             "day": 28
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "毛远新在省工农兵干部学习班的讲话（节录）",
@@ -72,7 +86,14 @@ export default {
             "year": 1974,
             "month": 4
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "毛远新在省工农兵干部学习班组长座谈会上的讲话（节录）",
@@ -87,7 +108,14 @@ export default {
             "month": 4,
             "day": 3
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "毛远新在省第一期工农兵干部学习班部分学员座谈会上的讲话（节录）",
@@ -102,7 +130,14 @@ export default {
             "month": 5,
             "day": 7
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "毛远新在辽宁省工人干部学校第一期开学典礼上的讲话（节录）",
@@ -117,7 +152,14 @@ export default {
             "month": 6,
             "day": 20
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr_exceptions": {}
@@ -126,4 +168,4 @@ export default {
   "path": "7c69c3ac-22a8-483f-b7ba-33fb0081f388",
   "resource_type": "book",
   "version": 2
-}
+};

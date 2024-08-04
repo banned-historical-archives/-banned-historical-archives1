@@ -40,7 +40,14 @@ export default {
             "month": 3,
             "day": 20
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "彻底粉碎反革命复辟阴谋",
@@ -55,7 +62,14 @@ export default {
             "month": 3,
             "day": 20
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr_exceptions": {}
@@ -64,4 +78,4 @@ export default {
   "path": "58499299-cef2-4f20-ad14-90703cd2431a",
   "resource_type": "book",
   "version": 2
-}
+};

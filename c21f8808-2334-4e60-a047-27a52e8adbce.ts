@@ -52,7 +52,7 @@ export default {
             "year": 1976,
             "month": 12
           }
-        ]
+        ],
       },
       {
         "title": "给伟大领袖毛主席的一封信",
@@ -135,8 +135,8 @@ export default {
       {
         "title": "朱洪霞在武重俱乐部集会上的讲话（节录）",
         "authors": [
-          "朱洪霞",
-          "戴行江"
+          "戴行江",
+          "朱洪霞"
         ],
         "page_start": 7,
         "page_end": 7,
@@ -220,8 +220,8 @@ export default {
         "title": "朱洪霞在市房地局礼堂集会上的讲话（节录）",
         "authors": [
           "朱洪霞",
-          "胡厚民",
-          "聂年生"
+          "聂年生",
+          "胡厚民"
         ],
         "page_start": 8,
         "page_end": 9,
@@ -271,10 +271,10 @@ export default {
       {
         "title": "朱洪霞等人在市建工局礼堂集会上的讲话（节录）",
         "authors": [
-          "胡厚民",
+          "吴焱金",
           "朱洪霞",
-          "顾建棠",
-          "吴焱金"
+          "胡厚民",
+          "顾建棠"
         ],
         "page_start": 9,
         "page_end": 11,
@@ -299,8 +299,8 @@ export default {
       {
         "title": "胡厚民、朱洪霞等人在市政三公司集会上的讲话（节录）",
         "authors": [
-          "胡厚民",
-          "朱洪霞"
+          "朱洪霞",
+          "胡厚民"
         ],
         "page_start": 11,
         "page_end": 12,
@@ -325,8 +325,8 @@ export default {
       {
         "title": "胡厚民等人在市建工局礼堂集会上的讲话（节录）",
         "authors": [
-          "胡厚民",
-          "吴焱金"
+          "吴焱金",
+          "胡厚民"
         ],
         "page_start": 12,
         "page_end": 13,
@@ -359,8 +359,8 @@ export default {
       {
         "title": "朱洪霞、胡厚民等人在武胜路街头集会上的讲话（节录）",
         "authors": [
-          "胡厚民",
-          "朱洪霞"
+          "朱洪霞",
+          "胡厚民"
         ],
         "page_start": 13,
         "page_end": 14,
@@ -385,8 +385,8 @@ export default {
       {
         "title": "朱洪霞、胡厚民在市建工局礼堂集会上的讲话（节录）",
         "authors": [
-          "胡厚民",
-          "朱洪霞"
+          "朱洪霞",
+          "胡厚民"
         ],
         "page_start": 14,
         "page_end": 14,
@@ -401,8 +401,8 @@ export default {
       {
         "title": "朱洪霞、胡厚民在江汉工人文化宫集会上的讲话（节录）",
         "authors": [
-          "胡厚民",
-          "朱洪霞"
+          "朱洪霞",
+          "胡厚民"
         ],
         "page_start": 14,
         "page_end": 15,
@@ -597,7 +597,12 @@ export default {
         0.08,
         0,
         0
-      ]
+      ],
+      "det_limit_side_len": 1496,
+      "det_db_box_thresh": 0.3,
+      "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+      "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+      "drop_score": 0.3
     },
     "ocr_exceptions": {}
   },
@@ -605,4 +610,4 @@ export default {
   "path": "c21f8808-2334-4e60-a047-27a52e8adbce",
   "resource_type": "book",
   "version": 2
-}
+};

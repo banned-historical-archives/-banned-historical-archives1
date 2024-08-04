@@ -25,9 +25,9 @@ export default {
         "title": "中央首长第三次接见安徽双方代表团的指示",
         "alias": "中央首长第三次接见安徽代表",
         "authors": [
+          "姚文元",
           "康生",
-          "江青",
-          "姚文元"
+          "江青"
         ],
         "page_start": 1,
         "page_end": 8,
@@ -43,7 +43,14 @@ export default {
             "month": 9,
             "day": 5
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr_exceptions": {}
@@ -52,4 +59,4 @@ export default {
   "path": "67b43734-d924-48ac-9e62-359edd11e690",
   "resource_type": "book",
   "version": 2
-}
+};

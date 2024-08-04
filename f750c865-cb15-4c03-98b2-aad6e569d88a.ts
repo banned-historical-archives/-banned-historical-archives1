@@ -56,7 +56,14 @@ export default {
           {
             "year": 1976
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "（一）毛远新一九七三年十二月八日对辽宁省军区司令部《关于今冬明春民兵整组几个问题的意见》的批示",
@@ -87,7 +94,14 @@ export default {
             "month": 12,
             "day": 8
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "（二）毛远新一九七三年十二月十三日在省委城市民兵工作会议上的讲话（摘录）",
@@ -118,7 +132,14 @@ export default {
             "month": 12,
             "day": 13
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "（三）毛远新一九七四年一月十四日检查沈阳市民兵总指挥部工作时的插话（摘录）",
@@ -149,7 +170,14 @@ export default {
             "month": 1,
             "day": 14
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "（四）毛远新一九七四年一月二十一日在检查民兵执勤工作时的插话（摘录）",
@@ -188,7 +216,14 @@ export default {
             "month": 1,
             "day": 21
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "（五）毛远新一九七四年三月十一日在第三次省委民兵工作领导小组会议上的讲话（摘录）",
@@ -219,7 +254,14 @@ export default {
             "month": 3,
             "day": 31
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "（六）毛远新一九七四年四月五日在辽宁省军区关于“总参召开全国通讯分队建设现场会”给省委报告上的批示",
@@ -250,7 +292,14 @@ export default {
             "month": 4,
             "day": 5
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "（七）毛远新一九七四年十一月在听取汇报省委民兵工作领导小组会议情况时的插话（摘录）",
@@ -280,7 +329,14 @@ export default {
             "year": 1974,
             "month": 11
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "（八）毛远新一九七四年十一月二十日在辽、吉、黑三省民兵工作座谈会上的讲话（摘录）",
@@ -319,7 +375,14 @@ export default {
             "month": 11,
             "day": 20
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "（九）毛远新一九七五年五月十六日在省委常委会上听取民兵工作汇报时的讲话（摘录）",
@@ -350,7 +413,14 @@ export default {
             "month": 5,
             "day": 16
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "（十）毛远新对所谓“三位一体”的言论和批示",
@@ -390,7 +460,14 @@ export default {
             "month": 5,
             "day": 25
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr_exceptions": {}
@@ -399,4 +476,4 @@ export default {
   "path": "f750c865-cb15-4c03-98b2-aad6e569d88a",
   "resource_type": "book",
   "version": 2
-}
+};

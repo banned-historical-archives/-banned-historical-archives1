@@ -25,10 +25,10 @@ export default {
         "alias": "总理、陈伯达、康生、江青、姚文元等同志在接见全国铁路、交通会议全体代表时的重要讲话",
         "authors": [
           "周恩来",
-          "江青",
-          "陈伯达",
+          "姚文元",
           "康生",
-          "姚文元"
+          "江青",
+          "陈伯达"
         ],
         "dates": [
           {
@@ -44,7 +44,14 @@ export default {
             "name": "武钢综合厂革命委员会",
             "type": "reprint"
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr_exceptions": {}
@@ -53,4 +60,4 @@ export default {
   "path": "b3ca39f5-3154-4c20-8f01-d8ed821d5ea5",
   "resource_type": "book",
   "version": 2
-}
+};

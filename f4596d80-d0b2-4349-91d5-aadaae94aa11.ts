@@ -32,8 +32,8 @@ export default {
         "title": "王洪文、张春桥同志批示",
         "alias": "洪文、春桥同志批示",
         "authors": [
-          "王洪文",
-          "张春桥"
+          "张春桥",
+          "王洪文"
         ],
         "dates": [
           {
@@ -43,7 +43,14 @@ export default {
           }
         ],
         "page_start": 1,
-        "page_end": 1
+        "page_end": 1,
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "上海市委领导同志在警备区看大字报时讲话",
@@ -56,7 +63,14 @@ export default {
           }
         ],
         "page_start": 1,
-        "page_end": 2
+        "page_end": 2,
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "关于许世友的大字报",
@@ -77,7 +91,14 @@ export default {
           }
         ],
         "page_start": 3,
-        "page_end": 15
+        "page_end": 15,
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr_exceptions": {}
@@ -86,4 +107,4 @@ export default {
   "path": "f4596d80-d0b2-4349-91d5-aadaae94aa11",
   "resource_type": "book",
   "version": 2
-}
+};

@@ -201,13 +201,20 @@ export default {
             "month": 6,
             "day": 5
           }
-        ]
+        ],
       }
     ],
-    "ocr_exceptions": {}
+    "ocr_exceptions": {},
+    "ocr": {
+      "det_limit_side_len": 1496,
+      "det_db_box_thresh": 0.3,
+      "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+      "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+      "drop_score": 0.3
+    }
   },
   "parser_id": "automation",
   "path": "c02feeb6-58b4-44b9-9965-47de5504e4b7",
   "resource_type": "book",
   "version": 2
-}
+};

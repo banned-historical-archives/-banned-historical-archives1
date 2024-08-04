@@ -46,7 +46,14 @@ export default {
             "month": 7,
             "day": 7
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "毛远新在常委扩大会议上的发言（节录）",
@@ -62,7 +69,14 @@ export default {
             "month": 8,
             "day": 28
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "毛远新在沈阳机床一厂汇报运动情况时的讲话（节录）",
@@ -88,7 +102,14 @@ export default {
             "month": 10,
             "day": 12
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr_exceptions": {}
@@ -97,4 +118,4 @@ export default {
   "path": "bb264672-4652-4810-b440-516ae554b3be",
   "resource_type": "book",
   "version": 2
-}
+};

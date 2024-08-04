@@ -111,9 +111,9 @@ export default {
       {
         "title": "插图",
         "authors": [
-          "上海工人革命造反总司令部",
+          "《一月风暴》编辑部",
           "《工人造反报》编辑部",
-          "《一月风暴》编辑部"
+          "上海工人革命造反总司令部"
         ],
         "page_start": 3,
         "page_end": 6,
@@ -197,7 +197,14 @@ export default {
             "month": 12,
             "day": 3
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "给全市工人革命造反派和革命职工的信",
@@ -524,4 +531,4 @@ export default {
   "path": "c934174f-a1b9-4f8c-8b7b-c18b3a9b1746",
   "resource_type": "book",
   "version": 2
-}
+};

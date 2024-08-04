@@ -59,14 +59,21 @@ export default {
             "month": 1,
             "day": 24
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "迟群、谢静宜在军委直属单位批林批孔报告会上的讲话",
         "alias": "迟群、谢静宜一九七四年一月二十四日在军委直属单位批林批孔报告会上的讲话",
         "authors": [
-          "迟群",
-          "谢静宜"
+          "谢静宜",
+          "迟群"
         ],
         "page_start": 3,
         "page_end": 16,
@@ -92,7 +99,14 @@ export default {
             "month": 1,
             "day": 24
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr": {
@@ -109,4 +123,4 @@ export default {
   "path": "b8cb3468-7dc6-4668-87e8-4fceb1f91d3d",
   "resource_type": "book",
   "version": 2
-}
+};

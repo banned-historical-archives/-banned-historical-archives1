@@ -50,15 +50,22 @@ export default {
             "year": 1976,
             "month": 12
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "第一部分",
         "authors": [
           "中共上海电影制片厂委员会",
+          "徐景贤",
           "王洪文",
           "马天水",
-          "徐景贤",
           "黄涛"
         ],
         "page_start": 2,
@@ -103,7 +110,14 @@ export default {
             "month": 9,
             "day": 14
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "第二部分",
@@ -135,7 +149,14 @@ export default {
             "month": 10,
             "day": 14
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "第三部分",
@@ -157,7 +178,14 @@ export default {
             "month": 5,
             "day": 8
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr_exceptions": {}
@@ -166,4 +194,4 @@ export default {
   "path": "8c1a5316-884e-465a-9775-48338f6cc6b5",
   "resource_type": "book",
   "version": 2
-}
+};

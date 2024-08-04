@@ -27,7 +27,14 @@ export default {
             "month": 3,
             "day": 22
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       }
     ],
     "ocr": {
@@ -40,4 +47,4 @@ export default {
   "path": "5717249f-0249-47cf-9d87-0f960ce7d4b3.pdf",
   "resource_type": "book",
   "version": 2
-}
+};
